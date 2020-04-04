@@ -1,0 +1,129 @@
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/AppBar/AppBar.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/Box/Box.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/Button/Button.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/Checkbox/Checkbox.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/Collapse/Collapse.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/CssBaseline/CssBaseline.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/Dialog/Dialog.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/DialogActions/DialogActions.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/DialogContent/DialogContent.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/DialogContentText/DialogContentText.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/DialogTitle/DialogTitle.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/Divider/Divider.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/Drawer/Drawer.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/FormControlLabel/FormControlLabel.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/Grid/Grid.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/IconButton/IconButton.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/List/List.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/ListItem/ListItem.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/ListItemIcon/ListItemIcon.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/ListItemText/ListItemText.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/MenuItem/MenuItem.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/TextField/TextField.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/Toolbar/Toolbar.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/Typography/Typography.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/styles/createMuiTheme.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/styles/makeStyles.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/icons/esm/AccountCircle.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/icons/esm/Home.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/icons/esm/Menu.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/icons/esm/Tune.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/styles/esm/ThemeProvider/ThemeProvider.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/axios/index.js (<- Module is not an ECMAScript module) */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/defineProperty.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/objectSpread2.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/toConsumableArray.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/regenerator/index.js (<- Module is not an ECMAScript module) */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/lodash/filter.js (<- Module is not an ECMAScript module) */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/lodash/find.js (<- Module is not an ECMAScript module) */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/lodash/isNaN.js (<- Module is not an ECMAScript module) */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/lodash/isNil.js (<- Module is not an ECMAScript module) */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/lodash/map.js (<- Module is not an ECMAScript module) */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/lodash/noop.js (<- Module is not an ECMAScript module) */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/lodash/omit.js (<- Module is not an ECMAScript module) */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/lodash/startCase.js (<- Module is not an ECMAScript module) */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/lodash/xor.js (<- Module is not an ECMAScript module) */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/react-dom/index.js (<- Module is not an ECMAScript module) */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/react-hot-loader/root.js (<- Module is not an ECMAScript module) */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/react-number-format/dist/react-number-format.es.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/react-router-dom/esm/react-router-dom.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/react-router/esm/react-router.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/react/index.js (<- Module is not an ECMAScript module) */
+
+/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+
+/*! all exports used */
+
+/*! c:\code\javascript\covid-hackathon\client\index */
+
+/*! no exports provided */
+
+/*! no static exports found */
+
+/*!****************************!*\
+  !*** multi ./client/index ***!
+  \****************************/
+
+/*!***********************************!*\
+  !*** ./client/utils/constants.js ***!
+  \***********************************/
+
+/*!**************************************!*\
+  !*** ./client/index.js + 16 modules ***!
+  \**************************************/
