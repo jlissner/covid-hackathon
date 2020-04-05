@@ -35,7 +35,11 @@ function Navbar() {
           </Typography>
 
           <Box ml='auto'>
-            <If conditions={[pathname === '/profile', pathname === '/settings']}>
+            <If conditions={[
+              pathname === '/profile',
+              pathname === '/settings',
+              pathname === '/future',
+            ]}>
               <IconButton color="inherit" onClick={(evt) => setMenu(evt.target)}>
                 <ProfileIcon fontSize="large" />
               </IconButton>

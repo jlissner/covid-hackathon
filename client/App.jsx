@@ -10,6 +10,7 @@ import {
   Paper,
 } from '@material-ui/core';
 import {
+  Future,
   Home,
   Loading,
   Login,
@@ -38,6 +39,7 @@ function App() {
         maxHeight={800}
         m={2}
         width={1}
+        overflow="auto"
       >
         <If conditions={[pathname !== '/']}>
           <Navbar />
@@ -67,6 +69,10 @@ function App() {
 
             <Route path='/settings'>
               <Settings />
+            </Route>
+
+            <Route path='/future'>
+              <Future />
             </Route>
           </Switch>
         </Box>

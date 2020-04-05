@@ -8,7 +8,15 @@ object-assign
 
 /*! ../ButtonBase */
 
+/*! ../ExpansionPanel/ExpansionPanelContext */
+
 /*! ../FormControl */
+
+/*! ../IconButton */
+
+/*! ../List/ListContext */
+
+/*! ../ListItem */
 
 /*! ../Paper */
 
@@ -30,6 +38,10 @@ object-assign
 
 /*! ../utils/capitalize */
 
+/*! ../utils/isMuiElement */
+
+/*! ../utils/useForkRef */
+
 /*! ./../webpack/buildin/global.js */
 
 /*! ./../webpack/buildin/module.js */
@@ -41,6 +53,8 @@ object-assign
 /*! ./ErrorCorrectLevel */
 
 /*! ./FormControlContext */
+
+/*! ./ListContext */
 
 /*! ./Polynomial */
 
@@ -488,6 +502,8 @@ object-assign
 
 /*! ./util */
 
+/*! ./utils/createSvgIcon */
+
 /*! ./words */
 
 /*! @babel/runtime/helpers/esm/defineProperty */
@@ -504,11 +520,17 @@ object-assign
 
 /*! @babel/runtime/helpers/esm/typeof */
 
+/*! @material-ui/core/SvgIcon */
+
 /*! @material-ui/styles */
 
 /*! @material-ui/utils */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js because of ./client/App.jsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js because of ./client/Navbar.jsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js because of ./client/Navbar.jsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js because of ./client/Pages/Future.jsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js because of ./client/Navbar.jsx */
 
@@ -518,33 +540,45 @@ object-assign
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/defineProperty.js because of ./client/App.jsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/defineProperty.js because of ./client/index.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/defineProperty.js because of ./client/Navbar.jsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/extends.js because of ./client/index.js */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js because of ./client/index.js */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js because of ./client/App.jsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/iterableToArray.js because of ./client/App.jsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js because of ./client/utils/Confirm.jsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/iterableToArray.js because of ./client/Pages/Future.jsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/nonIterableRest.js because of ./client/Navbar.jsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/nonIterableRest.js because of ./client/Pages/Future.jsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js because of ./client/Navbar.jsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js because of ./client/utils/If.jsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js because of ./client/index.js */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js because of ./client/App.jsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js because of ./client/Navbar.jsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js because of ./client/Form/FormItem.jsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js because of ./client/Pages/Future.jsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js because of ./client/App.jsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js because of ./client/index.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js because of ./client/Navbar.jsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/typeof.js because of ./client/App.jsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/typeof.js because of ./client/Navbar.jsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js because of ./client/App.jsx */
 
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js because of ./client/Navbar.jsx */
+
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/inheritsLoose.js (<- Module is not an ECMAScript module) */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/ButtonBase/ButtonBase.js because of ./client/Navbar.jsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/Collapse/Collapse.js because of ./client/utils/If.jsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/ExpansionPanel/ExpansionPanelContext.js because of ./client/Pages/Future.jsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/FormControl/FormControlContext.js because of ./client/Form/FormItem.jsx */
 
@@ -552,9 +586,7 @@ object-assign
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/IconButton/IconButton.js because of ./client/Navbar.jsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/List/ListContext.js because of ./client/Form/FormItem.jsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/List/ListContext.js because of ./client/Navbar.jsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/List/List.js because of ./client/Pages/Future.jsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/Menu/Menu.js because of ./client/Navbar.jsx */
 
@@ -564,21 +596,15 @@ object-assign
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/Paper/Paper.js because of ./client/App.jsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/SvgIcon/SvgIcon.js because of ./client/Form/FormItem.jsx */
-
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/internal/svg-icons/createSvgIcon.js because of ./client/Form/FormItem.jsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/styles/colorManipulator.js because of ./client/App.jsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/styles/colorManipulator.js because of ./client/Navbar.jsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/styles/defaultTheme.js because of ./client/App.jsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/styles/defaultTheme.js because of ./client/Navbar.jsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/styles/defaultTheme.js because of ./client/index.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/styles/transitions.js because of ./client/Navbar.jsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/styles/transitions.js because of ./client/App.jsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/styles/transitions.js because of ./client/utils/Confirm.jsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/styles/transitions.js because of ./client/utils/If.jsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/styles/useTheme.js because of ./client/Form/FormItem.jsx */
 
@@ -588,9 +614,9 @@ object-assign
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/styles/withStyles.js because of ./client/index.js */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/styles/zIndex.js because of ./client/App.jsx */
-
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/styles/zIndex.js because of ./client/Form/FormItem.jsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/styles/zIndex.js because of ./client/Navbar.jsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/transitions/utils.js because of ./client/utils/If.jsx */
 
@@ -608,8 +634,6 @@ object-assign
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/utils/getScrollbarSize.js because of ./client/utils/Confirm.jsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/utils/isMuiElement.js because of ./client/Form/FormItem.jsx */
-
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/utils/isMuiElement.js because of ./client/Navbar.jsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/utils/ownerDocument.js because of ./client/Form/FormItem.jsx */
@@ -625,6 +649,8 @@ object-assign
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/utils/setRef.js because of ./client/Navbar.jsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/utils/useControlled.js because of ./client/Form/FormItem.jsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/utils/useControlled.js because of ./client/Pages/Future.jsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/core/esm/utils/useEventCallback.js because of ./client/Form/FormItem.jsx */
 
@@ -650,17 +676,19 @@ object-assign
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/system/esm/breakpoints.js because of ./client/App.jsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/system/esm/breakpoints.js because of ./client/index.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/system/esm/breakpoints.js because of ./client/Navbar.jsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/system/esm/merge.js because of ./client/App.jsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/system/esm/merge.js because of ./client/index.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/system/esm/merge.js because of ./client/Navbar.jsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/system/esm/spacing.js because of ./client/App.jsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/system/esm/spacing.js because of ./client/index.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/system/esm/spacing.js because of ./client/Navbar.jsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/utils/esm/deepmerge.js because of ./client/App.jsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@material-ui/utils/esm/deepmerge.js because of ./client/Navbar.jsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/clsx/dist/clsx.m.js because of ./client/App.jsx */
 
@@ -763,6 +791,8 @@ object-assign
 /*! qr.js/lib/QRCode */
 
 /*! react */
+
+/*! react-dom */
 
 /*! react-is */
 
@@ -1691,6 +1721,10 @@ object-assign
   \****************************************************/
 
 /*!*****************************************************!*\
+  !*** ./node_modules/@material-ui/icons/esm/Help.js ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
   !*** ./node_modules/css-loader/dist/runtime/api.js ***!
   \*****************************************************/
 
@@ -1707,11 +1741,19 @@ object-assign
   \*******************************************************/
 
 /*!********************************************************!*\
+  !*** ./node_modules/@material-ui/icons/esm/Warning.js ***!
+  \********************************************************/
+
+/*!********************************************************!*\
   !*** ./node_modules/react/cjs/react.production.min.js ***!
   \********************************************************/
 
 /*!*********************************************************!*\
   !*** ./node_modules/@material-ui/core/esm/Grid/Grid.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/@material-ui/core/esm/List/List.js ***!
   \*********************************************************/
 
 /*!*********************************************************!*\
@@ -1734,12 +1776,20 @@ object-assign
   !*** ./node_modules/@material-ui/core/esm/Paper/Paper.js ***!
   \***********************************************************/
 
+/*!***********************************************************!*\
+  !*** ./node_modules/@material-ui/icons/esm/ExpandMore.js ***!
+  \***********************************************************/
+
 /*!************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/esm/extends.js ***!
   \************************************************************/
 
 /*!************************************************************!*\
   !*** ./node_modules/@material-ui/core/esm/utils/setRef.js ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/@material-ui/icons/esm/CheckCircle.js ***!
   \************************************************************/
 
 /*!************************************************************!*\
@@ -1776,6 +1826,10 @@ object-assign
 
 /*!**************************************************************!*\
   !*** ./node_modules/@material-ui/core/esm/utils/debounce.js ***!
+  \**************************************************************/
+
+/*!**************************************************************!*\
+  !*** ./node_modules/@material-ui/icons/esm/AccountCircle.js ***!
   \**************************************************************/
 
 /*!**************************************************************!*\
@@ -1835,6 +1889,14 @@ object-assign
   \*****************************************************************/
 
 /*!*****************************************************************!*\
+  !*** ./node_modules/@material-ui/core/esm/ListItem/ListItem.js ***!
+  \*****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./node_modules/@material-ui/core/esm/MenuItem/MenuItem.js ***!
+  \*****************************************************************/
+
+/*!*****************************************************************!*\
   !*** ./node_modules/@material-ui/core/esm/styles/makeStyles.js ***!
   \*****************************************************************/
 
@@ -1863,6 +1925,10 @@ object-assign
   \******************************************************************/
 
 /*!*******************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js ***!
+  \*******************************************************************/
+
+/*!*******************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/esm/defineProperty.js ***!
   \*******************************************************************/
 
@@ -1887,7 +1953,19 @@ object-assign
   \*******************************************************************/
 
 /*!********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/iterableToArray.js ***!
+  \********************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/nonIterableRest.js ***!
+  \********************************************************************/
+
+/*!********************************************************************!*\
   !*** ./node_modules/@material-ui/core/esm/Box/Box.js + 14 modules ***!
+  \********************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./node_modules/@material-ui/icons/esm/utils/createSvgIcon.js ***!
   \********************************************************************/
 
 /*!*********************************************************************!*\
@@ -1899,7 +1977,7 @@ object-assign
   \*********************************************************************/
 
 /*!*********************************************************************!*\
-  !*** ./node_modules/@material-ui/core/esm/Menu/Menu.js + 4 modules ***!
+  !*** ./node_modules/@material-ui/core/esm/Menu/Menu.js + 3 modules ***!
   \*********************************************************************/
 
 /*!*********************************************************************!*\
@@ -1951,6 +2029,14 @@ object-assign
   \*************************************************************************/
 
 /*!*************************************************************************!*\
+  !*** ./node_modules/@material-ui/core/esm/ListItemIcon/ListItemIcon.js ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./node_modules/@material-ui/core/esm/ListItemText/ListItemText.js ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
   !*** ./node_modules/react-number-format/dist/react-number-format.es.js ***!
   \*************************************************************************/
 
@@ -1960,10 +2046,6 @@ object-assign
 
 /*!**************************************************************************!*\
   !*** ./node_modules/@material-ui/core/esm/FormControl/useFormControl.js ***!
-  \**************************************************************************/
-
-/*!**************************************************************************!*\
-  !*** ./node_modules/@material-ui/icons/esm/AccountCircle.js + 1 modules ***!
   \**************************************************************************/
 
 /*!***************************************************************************!*\
@@ -2003,10 +2085,6 @@ object-assign
   \*****************************************************************************/
 
 /*!*****************************************************************************!*\
-  !*** ./node_modules/@material-ui/core/esm/MenuItem/MenuItem.js + 1 modules ***!
-  \*****************************************************************************/
-
-/*!*****************************************************************************!*\
   !*** ./node_modules/@material-ui/core/esm/styles/withStyles.js + 1 modules ***!
   \*****************************************************************************/
 
@@ -2019,7 +2097,7 @@ object-assign
   \*****************************************************************************/
 
 /*!******************************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js + 3 modules ***!
+  !*** ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js + 1 modules ***!
   \******************************************************************************/
 
 /*!******************************************************************************!*\
@@ -2055,7 +2133,7 @@ object-assign
   \*********************************************************************************/
 
 /*!**********************************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js + 3 modules ***!
+  !*** ./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js + 2 modules ***!
   \**********************************************************************************/
 
 /*!**********************************************************************************!*\
@@ -2071,8 +2149,24 @@ object-assign
   \***********************************************************************************/
 
 /*!************************************************************************************!*\
+  !*** ./node_modules/@material-ui/core/esm/ExpansionPanel/ExpansionPanelContext.js ***!
+  \************************************************************************************/
+
+/*!************************************************************************************!*\
   !*** ./node_modules/@material-ui/styles/esm/makeStyles/makeStyles.js + 18 modules ***!
   \************************************************************************************/
+
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/@material-ui/core/esm/ExpansionPanel/ExpansionPanel.js + 1 modules ***!
+  \*****************************************************************************************/
+
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/@material-ui/core/esm/ExpansionPanelDetails/ExpansionPanelDetails.js ***!
+  \*******************************************************************************************/
+
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/@material-ui/core/esm/ExpansionPanelSummary/ExpansionPanelSummary.js ***!
+  \*******************************************************************************************/
 
 /*!******************************************************************************************************!*\
   !*** ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/objectSpread2.js ***!
