@@ -1,88 +1,93 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { hot } from 'react-hot-loader/root';
-import { Switch, Route } from 'react-router-dom';
-import axios from 'axios';
+import {
+  Switch,
+  Route,
+  useLocation,
+} from 'react-router-dom';
+import { makeStyles } from '@material-ui/core/styles';
 import {
   Box,
-  Button,
+  Paper,
+  Typography,
 } from '@material-ui/core';
+import {
+  Home,
+  Loading,
+  Login,
+  Profile,
+  Register,
+  Settings,
+} from './Pages';
 import { If } from './utils';
-import Form from './Form';
 import Navbar from './Navbar';
-import NavDrawer from './NavDrawer';
+
+const useStyles = makeStyles((theme) => ({
+  title: {
+    fontSize: ({ pathname }) => pathname === '/' ? '4rem' : '2rem',
+    marginLeft: ({ pathname }) => pathname === '/' ? 'calc(50% - 181.5px)' : 0,
+    transition: '.18s all ease-in-out',
+  },
+  subTitle: {
+    color: '#777',
+    fontSize: ({ pathname }) => pathname === '/' ? '2.125rem' : '1.125rem',
+    marginLeft: ({ pathname }) => pathname === '/' ? 'calc(50% - 133px)' : 0,
+    transition: '.18s all ease-in-out',
+  },
+}));
 
 function App() {
-  const [responses, setResponses] = useState([]);
-
-  async function ping() {
-    const now = new Date();
-    const { data } = await axios.get('/ping');
-    const timeToRespond = new Date() - now;
-    const message = `${data} - ${timeToRespond}ms`
-
-    setResponses([...responses, message]);
-  }
+  const { pathname } = useLocation();
 
   return (
-    <>
-      <Navbar />
-      <NavDrawer />
-      <Box p={4} mt={11} height="100%">
-        <Switch>
-          <Route exact path='/'>
-            <Button onClick={ping}>Ping</Button>
+    <Box
+      height={1}
+      display="flex"
+      alignItems="center"
+      justifyContent="center"
+      maxWidth={420}
+      margin="auto"
+    >
+      <Box
+        component={Paper}
+        height={1}
+        maxHeight={800}
+        m={2}
+        width={1}
+      >
+        <If conditions={[pathname !== '/']}>
+          <Navbar />
+        </If>
 
-            <If conditions={[responses.length]}>
-              <Box
-                bgcolor="rgba(0, 0, 0, 0.09)"
-                border={1}
-                borderRadius={4}
-                borderColor="rgba(1, 0, 0, 0.42)"
-                p={1}
-              >
-                {responses.map((d, i) => <Box key={i}>{d}</Box>)}
-              </Box>
-            </If>
-          </Route>
-          <Route path='/form-example'>
-            <Form
-              form={[
-                {
-                  accessor: 'name',
-                  required: true,
-                }, {
-                  accessor: 'age',
-                  type: 'select',
-                  options: [
-                    { value: 'under 30' },
-                    { value: 'over 30' },
-                  ],
-                }
-              ]}
-              value={{
-                name: '',
-                age: '',
-              }}
-              Footer={({ value, validate, form, setForm }) => {
-                function save() {
-                  const { hasError, validatedSchema } = validate(form, value);
-                  setForm(validatedSchema);
+        <Box p={4}>
+          <Switch>
+            <Route exact path='/'>
+              <Home />
+            </Route>
 
-                  if (!hasError) {
-                    alert('saved form!');
-                  }
-                }
+            <Route path='/loading'>
+              <Loading />
+            </Route>
 
-                return <Button onClick={save}>Save</Button>
-              }}
-            />
-          </Route>
-          <Route path='/'>
-            404... nothing here?
-          </Route>
-        </Switch>
+            <Route path='/login'>
+              <Login />
+            </Route>
+
+            <Route path='/profile'>
+              <Profile />
+            </Route>
+
+            <Route path='/register'>
+              <Register />
+            </Route>
+
+            <Route path='/settings'>
+              <Settings />
+            </Route>
+          </Switch>
+        </Box>
       </Box>
-    </>
+    </Box>
   );
 }
 

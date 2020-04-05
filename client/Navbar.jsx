@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import {
   AppBar,
@@ -6,12 +7,14 @@ import {
   IconButton,
   Toolbar,
   Typography,
+  Menu,
+  MenuItem,
 } from '@material-ui/core';
 import {
   AccountCircle as ProfileIcon,
   Menu as MenuIcon,
 } from '@material-ui/icons';
-import { useGlobalState } from './hooks';
+import { If } from './utils';
 
 const useStyles = makeStyles((theme) => ({
   title: {
@@ -20,22 +23,32 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 function Navbar() {
+  const [menu, setMenu] = useState(null)
   const classes = useStyles();
-  const [, setNavOpen] = useGlobalState('navOpen');
+  const { pathname } = useLocation();
 
   return (
-    <AppBar>
-      <Toolbar>
-        <IconButton color="inherit" onClick={() => setNavOpen(true)}><MenuIcon /></IconButton>
-        <Typography className={classes.title} variant="h6" component="h1">
-        	COVID-19 Hackathon
-        </Typography>
+    <>
+      <AppBar position="static">
+        <Toolbar>
+          <Typography className={classes.title} variant="h6" component="h1">
+          	ImmunePass
+          </Typography>
 
-        <Box ml='auto'>
-          <ProfileIcon fontSize="large" />
-        </Box>
-      </Toolbar>
-    </AppBar>
+          <Box ml='auto'>
+            <If conditions={[pathname === '/profile', pathname === '/settings']}>
+              <IconButton color="inherit" onClick={(evt) => setMenu(evt.target)}>
+                <ProfileIcon fontSize="large" />
+              </IconButton>
+            </If>
+          </Box>
+        </Toolbar>
+      </AppBar>
+      <Menu open={Boolean(menu)} anchorEl={menu}>
+        <MenuItem component={Link} onClick={() => setMenu(null)} to="/settings">Edit Profile</MenuItem>
+        <MenuItem component={Link} onClick={() => setMenu(null)} to="/">Logout</MenuItem>
+      </Menu>
+    </>
   );
 }
 
