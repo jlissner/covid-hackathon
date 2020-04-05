@@ -5,11 +5,9 @@ import {
   Route,
   useLocation,
 } from 'react-router-dom';
-import { makeStyles } from '@material-ui/core/styles';
 import {
   Box,
   Paper,
-  Typography,
 } from '@material-ui/core';
 import {
   Home,
@@ -21,20 +19,6 @@ import {
 } from './Pages';
 import { If } from './utils';
 import Navbar from './Navbar';
-
-const useStyles = makeStyles((theme) => ({
-  title: {
-    fontSize: ({ pathname }) => pathname === '/' ? '4rem' : '2rem',
-    marginLeft: ({ pathname }) => pathname === '/' ? 'calc(50% - 181.5px)' : 0,
-    transition: '.18s all ease-in-out',
-  },
-  subTitle: {
-    color: '#777',
-    fontSize: ({ pathname }) => pathname === '/' ? '2.125rem' : '1.125rem',
-    marginLeft: ({ pathname }) => pathname === '/' ? 'calc(50% - 133px)' : 0,
-    transition: '.18s all ease-in-out',
-  },
-}));
 
 function App() {
   const { pathname } = useLocation();

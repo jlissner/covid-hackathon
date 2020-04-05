@@ -11,7 +11,6 @@ import {
 import _startCase from 'lodash/startCase';
 import Page from './Page';
 import QRCode from 'qrcode.react';
-import Navbar from '../Navbar';
 
 const statuses = {
   immune: {

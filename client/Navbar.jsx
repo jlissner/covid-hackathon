@@ -12,7 +12,6 @@ import {
 } from '@material-ui/core';
 import {
   AccountCircle as ProfileIcon,
-  Menu as MenuIcon,
 } from '@material-ui/icons';
 import { If } from './utils';
 

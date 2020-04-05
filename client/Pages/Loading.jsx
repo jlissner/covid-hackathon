@@ -2,25 +2,24 @@ import React, { useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import {
   Box,
-  Button,
   CircularProgress,
   Divider,
-  Grid,
   Typography,
 } from '@material-ui/core';
-import _startCase from 'lodash/startCase';
 import Page from './Page';
-import QRCode from 'qrcode.react';
-import Navbar from '../Navbar';
 
 function Loading() {
   const history = useHistory();
 
   useEffect(() => {
-    setTimeout(() => {
+    const timeout = setTimeout(() => {
       history.push('/register')
-    }, 2000)
-  }, [])
+    }, 2000);
+
+    return () => {
+      clearTimeout(timeout);
+    }
+  }, [history]);
 
   return (
     <Page key="loading">
